@@ -28,27 +28,27 @@ Create a default bootstrap menu navbar, with the following adaptations:
 The following code will allow the h key to navigate to the home page, and the r then g key to go to google.
 
 <pre>
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
- <div class="container-fluid">
-  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-   <ul id="menu" name="menu" class="nav navbar-nav">
-    <li>
-     <a name="h" parent="menu" level="1" href="/"><span class="indicator">H</span>ome</a>
-    </li>
-    <li id="RandomMenu" name="r" parent="menu" level="1" class="dropdown">
-     <a href="#" class="dropdown-toggle" data-toglle="dropdown">
-      <span class="indicator">R</span>andom
-     </a>
-     <ul class="dropdown-menu" role="menu">
-      <li>Numbers</li>
-      <li class="divider"></li>
-      <li>
-       <a name="g" parent="RandomMenu" level="2" href="http://google.com"><span class="indicator">G</span>oogle</a>
-      </li>
-     </ul>
-    </li>
-   </ul>
-  </div>
- </div>
-</nav>
+&lt;nav class="navbar navbar-default navbar-fixed-top" role="navigation"&gt;
+ &lt;div class="container-fluid"&gt;
+  &lt;div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"&gt;
+   &lt;ul id="menu" name="menu" class="nav navbar-nav"&gt;
+    &lt;li&gt;
+     &lt;a name="h" parent="menu" level="1" href="/"&gt;&lt;span class="indicator"&gt;H&lt;/span&gt;ome&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li id="RandomMenu" name="r" parent="menu" level="1" class="dropdown"&gt;
+     &lt;a href="#" class="dropdown-toggle" data-toglle="dropdown"&gt;
+      &lt;span class="indicator"&gt;R&lt;/span&gt;andom
+     &lt;/a&gt;
+     &lt;ul class="dropdown-menu" role="menu"&gt;
+      &lt;li&gt;Numbers&lt;/li&gt;
+      &lt;li class="divider"&gt;&lt;/li&gt;
+      &lt;li&gt;
+       &lt;a name="g" parent="RandomMenu" level="2" href="http://google.com"&gt;&lt;span class="indicator"&gt;G&lt;/span&gt;oogle&lt;/a&gt;
+      &lt;/li&gt;
+     &lt;/ul&gt;
+    &lt;/li&gt;
+   &lt;/ul&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/nav&gt;
 </pre>
