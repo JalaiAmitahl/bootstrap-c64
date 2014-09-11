@@ -1,0 +1,43 @@
+@font-face {
+	 font-family: "C64 User";
+	 src: url("/fonts/C64_User_v1.0-STYLE.woff") format("woff");
+}
+
+@font-face {
+	 font-family: "C64 User Mono";
+	 src: url("/fonts/C64_User_Mono_v1.0-STYLE.woff") format("woff");
+}
+
+@font-face {
+	 font-family: "C64 Pro";
+	 src: url("/fonts/C64_Pro_v1.0-STYLE.woff") format("woff");
+}
+
+@font-face {
+	 font-family: "C64 Pro Mono";
+	 src: url("/fonts/C64_Pro_Mono_v1.0-STYLE.woff") format("woff");
+}
+
+.c64_top {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.indicator {
+    color: rgb(223, 220, 255);
+    text-decoration: underline;
+}
+
+.snippet {
+    font-size: x-small;
+    font-family: "C64 Pro Mono", monospace;
+    overflow: scroll;
+}
